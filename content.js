@@ -2,7 +2,7 @@
 function appendIcon(profileImageContainer) {
     // Create an icon element
     var icon = document.createElement('img');
-    icon.src = 'https://img-cdn.magiceden.dev/rs:fill:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/mad_lads_pfp_1682211343777.png'; // Replace with the URL of your actual icon
+    icon.src = 'https://content.solsea.io/files/thumbnail/1682271198368-283738381.png'; // Replace with the URL of your actual icon
     icon.style.cssText = 'width:20px;height:20px;'; // Set the size of your icon as needed
 
     // Append the icon under the profile image container
