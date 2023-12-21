@@ -1,21 +1,24 @@
 {
-    "manifest_version": 2,
-    "name": "Twitter Timeline Modifier",
-    "version": "1.0",
-    "description": "Adds icons under profile photos on Twitter.",
-    "permissions": ["activeTab"],
-    "content_scripts": [
-      {
-        "matches": ["https://twitter.com/*"],
-        "js": ["content.js"]
-      }
-    ],
-    "icons": {
-      "48": "icon.png"
-    },
-    "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+  "manifest_version": 2,
+  "name": "DAO Badges for Twitter",
+  "version": "1.0",
+  "description": "Add badges to Twitter profiles",
+  "icons": {
+    "48": "MainMONKE2.jpg",
+    "128": "MainMONKE2.jpg" 
+  },
+  "permissions": [
+    "activeTab",
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["content.js"]
     }
+  ],
+  "browser_action": {
+    "default_icon": "MainMONKE2.jpg",
+    "default_popup": "popup.html" 
   }
-  
+}
